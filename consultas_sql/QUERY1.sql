@@ -75,33 +75,39 @@ INSERT INTO bd1_bdlmm_municipio (cod_municipio, nome_municipio, cod_rgint, nome_
 INSERT INTO bd1_bdlmm_municipio (cod_municipio, nome_municipio, cod_rgint, nome_rgint, cod_rgi, nome_rgi) VALUES (1200104, 'Brasiléia', 1201, 'Rio Branco', 120002, 'Brasiléia');
 INSERT INTO bd1_bdlmm_municipio (cod_municipio, nome_municipio, cod_rgint, nome_rgint, cod_rgi, nome_rgi) VALUES (2413904, 'Taipu', 2401, 'Natal', 240001, 'Natal');
 */
--- Estado -- PREENCHER
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 11, 'Rodônia');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 12, 'Acre');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 13, 'Amazonas');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 14, 'Roraima');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 15, 'Pará');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 16, 'Amapá');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (1, 'Norte', 17, 'Tocantins');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 21, 'Maranhão');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 22, 'Piauí');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 23, 'Ceará');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 24, 'Rio Grande Do Norte');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 25, 'Paraíba');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 26, 'Pernanbuco');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 27, 'Alagoas');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 28, 'Sergipe');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (2, 'Nordeste', 29, 'Bahia');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (3, 'Sudeste', 31, 'Minas Gerais');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (3, 'Sudeste', 32, 'Espiríto Santos');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (3, 'Sudeste', 33, 'Rio de Janeiro');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (3, 'Sudeste', 35, 'São Paulo');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (4, 'Sul', 41, 'Paraná');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (4, 'Sul', 42, 'Santa Catarina');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (5, 'Centro-Oeste', 51, 'Mato Grosso');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (5, 'Centro-Oeste', 52, 'Goiais');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (5, 'Centro-Oeste', 50, 'Mato Grosso do Sul');
-INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (5, 'Centro-Oeste', 53, 'Distrito Federal');
+-- Estado -- 
+-- Estado
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (11, 'Rondônia', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (12, 'Acre', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (13, 'Amazonas', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (14, 'Roraima', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (15, 'Pará', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (16, 'Amapá', 1, 'Norte');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (17, 'Tocantins', 1, 'Norte');
+
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (21, 'Maranhão', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (22, 'Piauí', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (23, 'Ceará', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (24, 'Rio Grande do Norte', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (25, 'Paraíba', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (26, 'Pernambuco', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (27, 'Alagoas', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (28, 'Sergipe', 2, 'Nordeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (29, 'Bahia', 2, 'Nordeste');
+
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (31, 'Minas Gerais', 3, 'Sudeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (32, 'Espírito Santo', 3, 'Sudeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (33, 'Rio de Janeiro', 3, 'Sudeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (35, 'São Paulo', 3, 'Sudeste');
+
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (41, 'Paraná', 4, 'Sul');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (42, 'Santa Catarina', 4, 'Sul');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (43, 'Rio Grande do Sul', 4, 'Sul');
+
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (50, 'Mato Grosso do Sul', 5, 'Centro-Oeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (51, 'Mato Grosso', 5, 'Centro-Oeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (52, 'Goiás', 5, 'Centro-Oeste');
+INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (53, 'Distrito Federal', 5, 'Centro-Oeste');
 
 -- Empresas Agrícolas -- PREENCHER
 --INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES ();
