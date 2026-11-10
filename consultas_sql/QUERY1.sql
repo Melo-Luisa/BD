@@ -30,6 +30,20 @@ logradouro VARCHAR(100),
 bairro VARCHAR (50),
 numero INTEGER);
 
+CREATE TABLE bd1_bdlmm_setor_censitario(
+cod_setor INTEGER,
+situacao VARCHAR(10),
+tipo VARCHAR(100),
+area_km2 INTEGER,
+geometry VARCHAR(100),
+populacao_total INTEGER,
+total_de_domicilios INTEGER,
+total_de_domicilios_particulares INTEGER,
+total_de_domicilios_coletivos INTEGER,
+media_de_moradores_em_domicilios_particulares_ocupados INTEGER,
+percentual_de_domicilios_particulares_ocupados_imputados DECIMAL,
+total_de_domicilios_particulares_ocupados INTEGER);
+
 
 
 -- INSER INTO
