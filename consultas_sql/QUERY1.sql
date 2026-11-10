@@ -1,7 +1,7 @@
 --CREATE TABLES
 
 /*CREATE TABLE bd1_bdlmm_assentamento(
-cod_aglomerado INTEGER PRIMARY KEY,
+cod_aglomerado BIGINT PRIMARY KEY,
 nome_aglomerado VARCHAR (100),
 area_total_assentamento INTEGER,
 distritos_abrangidos VARCHAR (50));
@@ -31,10 +31,10 @@ bairro VARCHAR (50),
 numero INTEGER);
 
 CREATE TABLE bd1_bdlmm_setor_censitario(
-cod_setor INTEGER,
+cod_setor BIGINT PRIMARY KEY,
 situacao VARCHAR(10),
 tipo VARCHAR(100),
-area_km2 INTEGER,
+area_km2 DECIMAL,
 geometry VARCHAR(100),
 populacao_total INTEGER,
 total_de_domicilios INTEGER,
@@ -108,11 +108,22 @@ INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) V
 INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (52, 'Goiás', 5, 'Centro-Oeste');
 INSERT INTO public.bd1_bdlmm_estado (cod_uf, nome_uf, cod_regiao, nome_regiao) VALUES (53, 'Distrito Federal', 5, 'Centro-Oeste');
 
--- Empresas Agrícolas -- PREENCHER
+-- Empresas Agrícolas 
 --INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES ();
+-- Empresas Agrícolas
+INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES (13138000125, 'FRUTAX AGRICOLA LTDA', '1994-06-01', 8, 'SP 322', NULL, NULL);
+INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES (13159000140, 'AGROCEVA - TERRAPLANAGEM, ENGENHARIA E CONSTRUCOES LTDA', '1994-06-01', 4, 'DOM ALBERTO GONCALVES', 'VILA TAMANDARE', 1325);
+INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES (13159000221, 'AGROCEVA - TERRAPLANAGEM, ENGENHARIA E CONSTRUCOES LTDA', '2007-12-17', 4, 'JOSE BONIFACIO', 'SE', 209);
+INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES (13431000192, 'OLIVEIRA MECANIZACAO AGRICOLA LTDA', '1994-06-06', 8, 'EDUARDO LEITE', 'CAMPOS ELISEOS', 895);
+INSERT INTO bd1_bdlmm_empresas_agricolas (cnpj, nome_empresarial, data_inicio_atividade, situacao_cadastral, logradouro, bairro, numero) VALUES (13691000168, 'RAVAZZI AGROPECUARIA LTDA', '1994-06-06', 2, 'OLAVO BILAC', 'CENTRO', 69);
 
--- Setor Censitário -- PREENCHER
+-- Setor Censitário
 --INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES ();
+INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES (110003105000023, 110003100004, 83, 0.19192971, 0.0, 'Rural');
+INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES (110012205000153, 110012200004, 254, 1.5600957, 0.0361, 'Rural');
+INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES (110013005000062, 110013000005, 131, 0.27192576, 0.025, 'Rural');
+INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES (110013005000066, 110013000006, 38, 0.36152623, 0.0, 'Rural');
+INSERT INTO bd1_bdlmm_setor_censitario (cod_setor, cod_aglomerado, populacao_total, area_km2, percentual_de_domicilios_particulares_ocupados_imputados, situacao) VALUES (110013005000070, 110013000007, 126, 1.1148783, 0.0, 'Rural');
 
 
 /*
