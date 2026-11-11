@@ -385,6 +385,12 @@ WHERE
             AND m.nome_municipio = 'Gameleira'
     )
 
+SELECT DISTINCT a.nome_aglomerado
+FROM bd1_bdlmm_assentamento a
+INNER JOIN bd1_bdlmm_setor_censitario s 
+    ON a.cod_aglomerado = s.cod_aglomerado
+WHERE s.situacao = 'Rural' 
+  AND a.distritos_abrangidos ILIKE '%Porto Velho%';
 -- 2. Estados com percentual méio superior a 11% -- VERIFICAR SE ESTA CERTO
 SELECT e.nome_uf, AVG(
         d.percentual_de_domicilios_particulares_ocupados_imputados
